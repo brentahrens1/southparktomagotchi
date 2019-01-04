@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box; 
+    font-family: 'Concert One', cursive;
+}
+
+#container {
+    display: flex; 
+    
+}
+
+audio {
+    width: 200px;  
+    margin-top: 50px;  
+    text-align: center; 
+    
+}
+
+#start-game {
+    font-size: 40px; 
+    border-radius: 3%; 
+    color: #EC5F1F; 
+}
+
+.south-park-text {
+    color: #EC5F1F; 
+    text-align: center; 
+    font-size: 35px; 
+}
+
+#categories {
+    color: #50B7D6; 
+    text-align: center; 
+}
+
+.south-park {
+    height: 200px; 
+    width: 200px;
+}
+
+.South-Park-Dead {
+    height: 155px; 
+    width: 315px; 
+    border: 4px solid black; 
+    border-radius: 2%; 
+}
+
+body {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    background-image: url(https://i.imgur.com/JAtD3YH.jpg); 
+    background-size: cover; 
+}
+
+.southText2 {
+   color: #EC5F1F;
+   text-align: center; 
+   font-size: 30px; 
+}
+
+button {
+     font-size: 15px; 
+     border: 1px solid black; 
+     border-radius: 15%; 
+     text-align: center; 
+     margin-left: 10px; 
+}
+
+button:hover {
+    background-color: #50B7D6;
+}
+
+.characters {
+    border: 3px solid black;
+    border-radius: 1%; 
+    background-color: white;
+
+}
+
+main section div {
+    margin: 15px; 
+}
